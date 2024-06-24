@@ -13,6 +13,17 @@ body {
 #fade {
   color: #bf1f34;
 }
-Update {
+#Update {
   color: hsl(130, 72%, 44%);
+}
+#Cuban {
+  font-family: verdana, arial;
+  font-size: 1.3em;
+}
+.billion {
+  font-family: "lucida console", "courier new";
+  font-size: 14px;
+  font-weight: bold;
+  font-style: monospace;
+  
 }
