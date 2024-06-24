@@ -26,8 +26,11 @@ body {
   font-weight: bold;
   font-style: monospace;
 }
+
 .history {
   border-style: solid
+  border-width: 3px;
+  border-color: rgb(235, 231, 12);
   border-radius: 15px;
 }
 /* Different types of border-styles are solid, dashed, dotted, double, groove, ridge, inset, outset, and none. */
