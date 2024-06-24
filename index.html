@@ -101,22 +101,54 @@
                document.getElementById("greeting").innerHTML = "But lukas getting up there";
             }
         </script>   
+       <hr>
         <br>
-        <br>
-        <hr>
      <!-- Didnt wanna use <dt> list so might asw make note that it is a description list and also has <dd> in it its covered by <d1> -->
         <h3>Want to sign up for more mavs updates?</h3>
-        <p><b style="color: yellow">WARNING</b> DONT PUT ACTUAL PASSWORD, but even if you do nothing will happen 🤣</p>
-         <form action="index.php" method="POST">
+        <p><b style="background-color: yellow">WARNING</b> DONT PUT ACTUAL PASSWORD, but even if you do nothing will happen 🤣</p>
+         <form action="index.php" method="POST" enctype="multipart/form-data">
                <label for="username">Username</label>
                <input type="text" id="username" placeholder="Type you answer here" maxlength="40" required>
-
+               <br>
                <label for="password">Password</label>
                <input type="password" id="password" maxlength="40" required><br>
-
+               <br>
+               <label for="email">email</label>
+               <input type="email" id="email" placeholder="examplemail@gmail.com"><br>
+               <br>
+               <label for="phone">Phone #</label>
+               <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+               <br>
+               <label for="bday">birthdate</label>
+               <input type="date" id="bday">
+               <br>
+               <label for="quantity">quantity</label>
+               <input type="number" id="quantity" min="0" max="99" value="1">
+               <br>
+               <label for="title">title:</label>
+               <label for ="Mr.">Mr.</label>
+               <input type="radio" id="Mr." value="Mr." name="title">
+               <label for="Ms.">Ms.</label>
+               <input type="radio" id="Ms." value="Ms." name="title">
+               <label for="Dr.">Dr.</label>
+               <input type="radio" id="Dr." value="Dr." name="title">
+               <br>
+               <label for="Better">Whos better Dirk or Luka</label>
+               <select id="Better">
+                  <option value="Dirk"></option>
+                  <option value="Luka"></option>
+               </select>
+               <label for="subscribe">SUB TO @NEWWAVE245</label>
+               <input type="checkbox" id="subscribe">
+               <br>
+               <label for="comment">comment</label>
+               <textarea id="comment" rows="3" cols="25"></textarea>
+               <br>
+               <label for="file">file:</label>
+               <input type="file" id="file" accept="image/png, image/jpeg">
+               <br>
                <input type="reset"><br>
-               <input type="submit">
-              
+               <input type="submit"> 
            </form>
      <!-- COME BACK TO TABLES IN BRO CODE IF U NEED TO -->
         
