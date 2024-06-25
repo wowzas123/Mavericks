@@ -105,8 +105,15 @@ body {
   overflow: scroll;
 }
 
+#dally {
+  background-color: DodgerBlue;
+  display: inline;
+}
 
-
+#cavy {
+  background-color: hsl(357, 92%, 29%)
+  displlay: inline;
+}
 
 
 
