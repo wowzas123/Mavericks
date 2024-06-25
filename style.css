@@ -1,17 +1,18 @@
 body {
-  background-color: cyan
+  background-color: cyan;
+  margin: 2
 }
 
 #Luka {
-  color: white
+  color: white;
 }
 
 .Song {
-  color: rgb(8, 21, 161)
+  color: rgb(8, 21, 161);
 }
 
 .ezW {
-  color: rgb(13, 217, 149)
+  color: rgb(13, 217, 149);
 }
 
 #fade {
@@ -68,7 +69,12 @@ body {
   background-color: rgb(234, 234, 234);
   box-shadow: 3px 3px 5px;
 }
-
+.box {
+  border: 5px solid;
+  font-size: 5em;
+  width: 250px;
+  height: 250px;
+}
 
 
 
