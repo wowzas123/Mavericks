@@ -53,7 +53,17 @@ body {
 .coolio {
   text-shadow: 3px 3px 5px hsl(0, 100%, 61%), -3px -3px 5px hsl(197, 100%, 61%);
 }
-
+.goat {
+  text-shadow: 3px 3px 5px hsl(314, 96%, 42%), -3px -3px 5px hsl(247, 96%, 42%);
+  font-family: "Playwrite New Zealand", "lucida console", "courier new";
+  border-bottom: 3px solid red;
+  border-top: 3px solid yellow;
+  border-left: 3px dotted orange;
+  border-right: 3px dotted green;
+  
+  border-radius: 10px;
+}
+}
 
 
 
