@@ -49,4 +49,7 @@ body {
   border-radius: 10px;
 }
 /* Different types of border-styles are solid, dashed, dotted, double, groove, ridge, inset, outset, and none. */
- 
+
+.coolio {
+  text-shadow: 3px 3px 5px hsl(0, 100%, 61%), -3px -3px 5px hsl(197, 100%, 61%);
+}
