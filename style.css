@@ -74,10 +74,14 @@ body {
   font-size: 5em;
   width: 250px;
   height: 250px;
+  margin: auto;
 }
-
-
-
+#boxcool {
+  background-color: hsl(0, 100%, 60%);
+}
+#box2 {
+  background-color: hsl(189, 100%, 55%);
+}
 
 
 
