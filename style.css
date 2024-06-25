@@ -101,7 +101,7 @@ body {
 /* Different overflow elements are visible, hidden, clip, auto, scroll. */
 #peewo {
   border: 3px solid;
-  height: 75px;
+  height: 25px;
   overflow: scroll;
 }
 
